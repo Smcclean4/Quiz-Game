@@ -1,0 +1,111 @@
+body {
+  background-color: skyblue;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h1, h3 {
+  margin-top: 3%;
+  color: black;
+}
+
+#game-board {
+  background-image: url("../seperate-images/beach.jpeg");
+  background-size: 700px 700px;
+  background-repeat: no-repeat;
+  border: 10px solid black;
+  border-radius: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 3%;
+  display: block;
+  height: 700px;
+  width: 700px;
+}
+
+#timer {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid grey;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 2%;
+  height: 100px;
+  width: 100px;
+}
+
+#time {
+  margin-top: 50%;
+  font-size: 1.5em;
+  color: black;
+}
+
+#button {
+  text-align: center;
+}
+
+#start {
+  margin-top: 5%;
+  color: white;
+}
+
+#question {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid grey;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 10%;
+  height: 100px;
+  width: 600px;
+  color: black;
+}
+
+#answer0 {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid grey;
+  text-align: center;
+  margin-top: 10%;
+  height: 100px;
+  width: 250px;
+  color: black;
+}
+
+#answer1 {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid grey;
+  text-align: center;
+  margin-top: 10%;
+  height: 100px;
+  width: 250px;
+  color: black;
+}
+
+#answer2 {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid grey;
+  text-align: center;
+  margin-top: 10%;
+  height: 100px;
+  width: 250px;
+  color: black;
+}
+
+#answer3 {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid grey;
+  text-align: center;
+  margin-top: 10%;
+  height: 100px;
+  width: 250px;
+  color: black;
+}
+
+#answer0, #answer1, #answer2, #answer3 {
+  font-size: 2.0em;
+  cursor: pointer;
+}
